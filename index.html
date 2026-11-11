@@ -1,0 +1,659 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Kassa Ventures: web development, design and photography.">
+    <meta name="theme-color" content="#fdfdfd">
+    <script>
+      /* Apply saved/system theme before first paint (prevents a flash of the wrong theme) */
+      (function(){var t;try{t=localStorage.getItem('theme')}catch(e){}
+      if(t!=='light'&&t!=='dark'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}
+      document.documentElement.setAttribute('data-theme',t);})();
+    </script>
+    <title>Kassa Creative Ventures | Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+
+    <!-- customs css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- Header designs -->
+
+        <header class="header">
+            <a href="#home" class="logo" aria-label="Kassa Creative Ventures - home">
+                <img src="images/logo.svg" alt="" width="40" height="40">
+                <span class="logo-text">Kassa <b>Creative</b></span>
+            </a>
+            <nav class="nav-bar" id="nav" aria-label="Main">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#rate-card">Rate Card</a>
+                <a href="#core-services">Core Services</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button type="button" class="icon-btn" id="darkMode-icon" aria-label="Switch to dark mode" aria-pressed="false">
+                <i class='bx bx-moon' aria-hidden="true"></i><i class='bx bx-sun' aria-hidden="true"></i>
+            </button>
+            <button type="button" class="icon-btn" id="menu-icon" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+                <i class='bx bx-menu' aria-hidden="true"></i>
+            </button>
+        </header>
+
+        <main>
+        <!-- Home section designs -->
+         <section class="home" id="home">
+            <div class="home-content">
+                <h3>KASSA CREATVE VENTURES .NAIROBI / REMOTE</h3>
+                <h1>Creative work that turns attention into growth</h1>
+                <p>We help businesses attract attention, buid trust, and growth through strategy, content, design, advertising, and technology</p>
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+                <a href="#" class="btn">BOOK A FREE CONSULTATION</a>
+
+            </div>
+            <div class="profession-container">
+                <div class="profession-box">
+                    <div class="profession" style="--i:0">
+                        <i class='bx bx-code-alt'></i>
+                        <h3>Web Developer</h3>
+                    </div>
+
+                    <div class="profession" style="--i:1">
+                        <i class='bx bx-microphone'></i>
+                        <h3>Podcast and<br>Audio Marketing</h3>
+                    </div>
+
+                    <div class="profession" style="--i:2">
+                        <i class='bx bx-palette' ></i>
+                        <h3>Web Designer</h3>
+                    </div>
+
+                    <div class="profession" style="--i:3">
+                        <i class='bx bx-video'></i>
+                        <h3>Content Creation</h3>
+                    </div>
+
+                    <div class="circle"></div>
+                </div>
+                <div class="overlay"></div>
+            </div>
+
+            <div class="home-img">
+                <img src="images/hero.jpg" alt="Portrait of Kassa Ventures" width="1000" height="904" fetchpriority="high">
+            </div>
+         </section>
+
+         <!-- About section designs -->
+          <section class="about" id="about">
+            <div class="about-img">
+                <img src="images/image copy 6.png" alt="Kassa Ventures with a laptop" width="500" height="750" loading="lazy" decoding="async">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Hi I'm Here To Help Your Business Build strong Brands Through Creative Design, Digital Marketing , Content creation And Web Development!</h3>
+                <p>Kassa Creative Ventures combines strategy, design marketing, and technology to help businessses show up with confidence.</p>
+                <a href="about.html" class="btn">Read More</a>
+            </div>
+          </section>
+
+          <!-- Services section designs -->
+           <section class="services" id="services">
+            <p class="rc-eyebrow">What we do</p>
+            <h2 class="heading">The right mix of <span>strategy</span> and execution.</h2>
+            <p class="sv-lead">From the first idea to the next measurable result, we bring the creative and practical work together.</p>
+            <a href="#contact" class="sv-link">Talk about your goals <i class="bx bx-up-arrow-alt" aria-hidden="true" style="transform:rotate(45deg)"></i></a>
+
+            <div class="sv-partner">
+                <div>
+                    <p class="tm-kicker">A complete partner</p>
+                    <h3>One team for the work your audience actually sees.</h3>
+                </div>
+                <div>
+                    <p class="sv-partner-text">Your business deserves more than disconnected tactics. Kassa brings brand, content, media, digital experience, and reporting into a system shaped around your goals.</p>
+                    <ol class="sv-steps">
+                        <li><span class="tm-num">01</span> Understand</li>
+                        <li><span class="tm-num">02</span> Create</li>
+                        <li><span class="tm-num">03</span> Improve</li>
+                    </ol>
+                </div>
+            </div>
+
+            <h3 class="sv-sub">Built for the whole journey.</h3>
+            <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-share-alt' aria-hidden="true"></i>
+                <h3>Social Media Marketing &amp; Management</h3>
+                <p>We build thriving online communities through engaging content, consistent posting, and active audience interaction across the platforms that matter to your customers.</p>
+                <a href="#rate-card" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-video' aria-hidden="true"></i>
+                <h3>Content Creation &amp; Strategy</h3>
+                <p>We develop eye-catching visuals, reels, videos, and graphics tailored to your brand voice, with storytelling at the centre of every campaign.</p>
+                <a href="#rate-card" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-palette' aria-hidden="true"></i>
+                <h3>Branding &amp; Creative Design</h3>
+                <p>We create compelling brand visuals and campaigns that reflect your unique story, from logos to consistent visual guidelines.</p>
+                <a href="#rate-card" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-target-lock' aria-hidden="true"></i>
+                <h3>Digital Advertising (Google &amp; Meta Ads)</h3>
+                <p>We design and manage paid campaigns that reach the right audience at the right time, increasing visibility, quality leads, and return on investment.</p>
+                <a href="#rate-card" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-code-alt' aria-hidden="true"></i>
+                <h3>Website Design &amp; Development</h3>
+                <p>We build responsive, user-friendly websites that look professional, feel effortless to use, and turn visitors into loyal customers.</p>
+                <a href="#rate-card" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt-2' aria-hidden="true"></i>
+                <h3>Analytics &amp; Reporting</h3>
+                <p>We track performance, analyse data, and refine strategies so your marketing improves with every useful signal.</p>
+                <a href="#rate-card" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-user-voice' aria-hidden="true"></i>
+                <h3>Influencer Marketing</h3>
+                <p>We connect your brand with authentic voices that resonate with your target audience and build reach and credibility.</p>
+                <a href="#rate-card" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bot' aria-hidden="true"></i>
+                <h3>Chatbot &amp; AI-Powered Marketing</h3>
+                <p>We automate customer interactions with WhatsApp, Messenger, and AI-driven support to improve experience and streamline communication.</p>
+                <a href="#rate-card" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-microphone' aria-hidden="true"></i>
+                <h3>Podcast &amp; Audio Marketing</h3>
+                <p>We create branded podcasts and audio campaigns that reach new audiences through useful, engaging stories.</p>
+                <a href="#rate-card" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-star' aria-hidden="true"></i>
+                <h3>Online Reputation Management</h3>
+                <p>We monitor reviews, manage customer feedback, and help maintain a positive online presence that supports trust.</p>
+                <a href="#rate-card" class="btn">Read More</a>
+            </div>
+
+            </div>
+
+            <div class="rc-custom">
+                <div>
+                    <p class="rc-eyebrow">Not sure where to start?</p>
+                    <h3>Bring us the business problem. We'll help shape the brief.</h3>
+                    <p class="sv-cta-text">Start with a conversation, not a complicated proposal. We will listen, ask the useful questions, and recommend the right place to begin.</p>
+                </div>
+                <a href="#contact" class="btn">Get a free quote</a>
+            </div>
+
+            <div class="sv-outcome">
+                <p class="tm-kicker">The outcome</p>
+                <h3>More clarity. More consistency. More room to <span>grow.</span></h3>
+                <a href="#core-services" class="sv-link">Explore the services <i class="bx bx-up-arrow-alt" aria-hidden="true" style="transform:rotate(45deg)"></i></a>
+            </div>
+           </section>
+
+           <!-- Rate card section -->
+
+           <section class="rate-card" id="rate-card">
+            <p class="rc-eyebrow">Rate Card</p>
+            <div class="rc-intro">
+                <h2 class="heading">Clear scope. <span>Fair</span> momentum.</h2>
+                <p>Start with a focused service or build a custom growth system around the work your business needs next.</p>
+            </div>
+            <div class="rc-note">
+                <h3>Choose your starting point</h3>
+                <p>Every quote is shaped around scope, timing, and ambition.</p>
+            </div>
+            <div class="rc-list">
+                <article class="rc-service">
+                    <div class="rc-info">
+                        <span class="rc-label"><i class="bx bx-palette" aria-hidden="true"></i> Service</span>
+                        <h3>Graphic Design</h3>
+                        <p class="rc-tag">Make the brand visible</p>
+                        <p class="rc-mpesa"><i class="bx bx-mobile-alt" aria-hidden="true"></i> M-Pesa available</p>
+                    </div>
+                    <ul class="rc-items">
+                        <li><span class="rc-name">Logo Design</span><span class="rc-price">KES 2,000 – 4,000</span></li>
+                        <li><span class="rc-name">Social Media Post</span><span class="rc-price">KES 300 – 800</span></li>
+                        <li><span class="rc-name">Poster/Flyer</span><span class="rc-price">KES 1,000 – 2,000</span></li>
+                        <li><span class="rc-name">Business Card</span><span class="rc-price">KES 500 – 1,000</span></li>
+                    </ul>
+                    <a href="#contact" class="rc-quote">Get a quote <i class="bx bx-up-arrow-alt" aria-hidden="true" style="transform:rotate(45deg)"></i></a>
+                </article>
+                <article class="rc-service">
+                    <div class="rc-info">
+                        <span class="rc-label"><i class="bx bx-share-alt" aria-hidden="true"></i> Service</span>
+                        <h3>Social Media Management</h3>
+                        <p class="rc-tag">Keep the signal moving</p>
+                        <p class="rc-mpesa"><i class="bx bx-mobile-alt" aria-hidden="true"></i> M-Pesa available</p>
+                    </div>
+                    <ul class="rc-items">
+                        <li><span class="rc-name">Starter (8 posts/month)</span><span class="rc-price">KES 5,000</span></li>
+                        <li><span class="rc-name">Growth (12 posts/month)</span><span class="rc-price">KES 8,000</span></li>
+                        <li><span class="rc-name">Premium (20 posts/month)</span><span class="rc-price">KES 12,000</span></li>
+                    </ul>
+                    <a href="#contact" class="rc-quote">Get a quote <i class="bx bx-up-arrow-alt" aria-hidden="true" style="transform:rotate(45deg)"></i></a>
+                </article>
+                <article class="rc-service">
+                    <div class="rc-info">
+                        <span class="rc-label"><i class="bx bx-news" aria-hidden="true"></i> Service</span>
+                        <h3>Digital Marketing</h3>
+                        <p class="rc-tag">Put growth behind it</p>
+                        <p class="rc-mpesa"><i class="bx bx-mobile-alt" aria-hidden="true"></i> M-Pesa available</p>
+                    </div>
+                    <ul class="rc-items">
+                        <li><span class="rc-name">Social Media Ads</span><span class="rc-price">KES 3,000 – 6,000</span></li>
+                        <li><span class="rc-name">Google Ads Management</span><span class="rc-price">KES 5,000 – 10,000</span></li>
+                        <li><span class="rc-name">Online Reputation Management</span><span class="rc-price">KES 6,000 – 12,000</span></li>
+                    </ul>
+                    <a href="#contact" class="rc-quote">Get a quote <i class="bx bx-up-arrow-alt" aria-hidden="true" style="transform:rotate(45deg)"></i></a>
+                </article>
+                <article class="rc-service">
+                    <div class="rc-info">
+                        <span class="rc-label"><i class="bx bx-globe" aria-hidden="true"></i> Service</span>
+                        <h3>Website Design &amp; Development</h3>
+                        <p class="rc-tag">Make it easy to choose</p>
+                        <p class="rc-mpesa"><i class="bx bx-mobile-alt" aria-hidden="true"></i> M-Pesa available</p>
+                    </div>
+                    <ul class="rc-items">
+                        <li><span class="rc-name">Basic Website (1-3 pages)</span><span class="rc-price">KES 5,000 – 8,000</span></li>
+                        <li><span class="rc-name">Business Website (4-7 pages)</span><span class="rc-price">KES 10,000 – 15,000</span></li>
+                        <li><span class="rc-name">E-commerce Website</span><span class="rc-price">KES 18,000 – 25,000</span></li>
+                        <li><span class="rc-name">Maintenance (monthly)</span><span class="rc-price">KES 1,500 – 3,000</span></li>
+                    </ul>
+                    <a href="#contact" class="rc-quote">Get a quote <i class="bx bx-up-arrow-alt" aria-hidden="true" style="transform:rotate(45deg)"></i></a>
+                </article>
+                <article class="rc-service">
+                    <div class="rc-info">
+                        <span class="rc-label"><i class="bx bx-camera" aria-hidden="true"></i> Service</span>
+                        <h3>Content Creation</h3>
+                        <p class="rc-tag">Give the story a shape</p>
+                        <p class="rc-mpesa"><i class="bx bx-mobile-alt" aria-hidden="true"></i> M-Pesa available</p>
+                    </div>
+                    <ul class="rc-items">
+                        <li><span class="rc-name">Photography</span><span class="rc-price">KES 2,000 – 5,000</span></li>
+                        <li><span class="rc-name">Promo Video</span><span class="rc-price">KES 4,000 – 8,000</span></li>
+                        <li><span class="rc-name">Motion Graphics</span><span class="rc-price">KES 5,000 – 12,000</span></li>
+                    </ul>
+                    <a href="#contact" class="rc-quote">Get a quote <i class="bx bx-up-arrow-alt" aria-hidden="true" style="transform:rotate(45deg)"></i></a>
+                </article>
+                <article class="rc-service">
+                    <div class="rc-info">
+                        <span class="rc-label"><i class="bx bx-pen" aria-hidden="true"></i> Service</span>
+                        <h3>Branding &amp; Strategy</h3>
+                        <p class="rc-tag">Give the growth a direction</p>
+                        <p class="rc-mpesa"><i class="bx bx-mobile-alt" aria-hidden="true"></i> M-Pesa available</p>
+                    </div>
+                    <ul class="rc-items">
+                        <li><span class="rc-name">Brand Identity Package</span><span class="rc-price">KES 8,000 – 15,000</span></li>
+                        <li><span class="rc-name">Campaign Concept</span><span class="rc-price">KES 5,000 – 8,000</span></li>
+                        <li><span class="rc-name">Consultation (per hour)</span><span class="rc-price">KES 500</span></li>
+                    </ul>
+                    <a href="#contact" class="rc-quote">Get a quote <i class="bx bx-up-arrow-alt" aria-hidden="true" style="transform:rotate(45deg)"></i></a>
+                </article>
+            </div>
+            <div class="rc-custom">
+                <div>
+                    <p class="rc-eyebrow">Nothing off the shelf</p>
+                    <h3>Have a bigger brief?<br>Let's price the <span>right</span> thing.</h3>
+                </div>
+                <a href="#contact" class="btn">Request a custom quote</a>
+            </div>
+           </section>
+
+           <!-- Core services section -->
+           <section class="core" id="core-services">
+            <div class="core-head">
+                <div>
+                    <p class="tm-kicker">Our core services</p>
+                    <h2 class="core-title-h">Built for the whole journey.</h2>
+                </div>
+                <p class="core-count">10 ways to move forward</p>
+            </div>
+            <div class="core-grid">
+                <article class="core-card">
+                    <figure class="core-media">
+                        <img src="images/social media.jpeg" alt="" width="640" height="400" loading="lazy" decoding="async" onerror="this.remove()">
+                        <span class="core-num">01</span>
+                        <i class='bx bx-share-alt core-ico' aria-hidden="true"></i>
+                    </figure>
+                    <div class="core-body">
+                        <div class="core-title"><h3>Social Media Marketing &amp; Management</h3><i class='bx bx-up-arrow-alt core-arrow' aria-hidden="true"></i></div>
+                        <p>We build thriving online communities through engaging content, consistent posting, and active audience interaction across the platforms that matter to your customers.</p>
+                        <a href="#rate-card" class="core-more" aria-label="Learn more about Social Media Marketing and Management">Learn more <i class='bx bx-right-arrow-alt' aria-hidden="true"></i></a>
+                    </div>
+                </article>
+                <article class="core-card">
+                    <figure class="core-media">
+                        <img src="images/content.jpeg" alt="" width="640" height="400" loading="lazy" decoding="async" onerror="this.remove()">
+                        <span class="core-num">02</span>
+                        <i class='bx bx-video core-ico' aria-hidden="true"></i>
+                    </figure>
+                    <div class="core-body">
+                        <div class="core-title"><h3>Content Creation &amp; Strategy</h3><i class='bx bx-up-arrow-alt core-arrow' aria-hidden="true"></i></div>
+                        <p>We develop eye-catching visuals, reels, videos, and graphics tailored to your brand voice, with storytelling at the centre of every campaign.</p>
+                        <a href="#rate-card" class="core-more" aria-label="Learn more about Content Creation and Strategy">Learn more <i class='bx bx-right-arrow-alt' aria-hidden="true"></i></a>
+                    </div>
+                </article>
+                <article class="core-card">
+                    <figure class="core-media">
+                        <img src="images/branding and creative 1.jpeg" alt="" width="640" height="400" loading="lazy" decoding="async" onerror="this.remove()">
+                        <span class="core-num">03</span>
+                        <i class='bx bx-palette core-ico' aria-hidden="true"></i>
+                    </figure>
+                    <div class="core-body">
+                        <div class="core-title"><h3>Branding &amp; Creative Design</h3><i class='bx bx-up-arrow-alt core-arrow' aria-hidden="true"></i></div>
+                        <p>We create compelling brand visuals and campaigns that reflect your unique story, from logos to consistent visual guidelines.</p>
+                        <a href="#rate-card" class="core-more" aria-label="Learn more about Branding and Creative Design">Learn more <i class='bx bx-right-arrow-alt' aria-hidden="true"></i></a>
+                    </div>
+                </article>
+                <article class="core-card">
+                    <figure class="core-media">
+                        <img src="images/branding and creative 1.jpeg" alt="" width="640" height="400" loading="lazy" decoding="async" onerror="this.remove()">
+                        <span class="core-num">04</span>
+                        <i class='bx bx-target-lock core-ico' aria-hidden="true"></i>
+                    </figure>
+                    <div class="core-body">
+                        <div class="core-title"><h3>Digital Advertising (Google &amp; Meta Ads)</h3><i class='bx bx-up-arrow-alt core-arrow' aria-hidden="true"></i></div>
+                        <p>We design and manage paid campaigns that reach the right audience at the right time, increasing visibility, quality leads, and return on investment.</p>
+                        <a href="#rate-card" class="core-more" aria-label="Learn more about Digital Advertising (Google and Meta Ads)">Learn more <i class='bx bx-right-arrow-alt' aria-hidden="true"></i></a>
+                    </div>
+                </article>
+                <article class="core-card">
+                    <figure class="core-media">
+                        <img src="images/image copy 4.png" alt="" width="640" height="400" loading="lazy" decoding="async" onerror="this.remove()">
+                        <span class="core-num">05</span>
+                        <i class='bx bx-code-alt core-ico' aria-hidden="true"></i>
+                    </figure>
+                    <div class="core-body">
+                        <div class="core-title"><h3>Website Design &amp; Development</h3><i class='bx bx-up-arrow-alt core-arrow' aria-hidden="true"></i></div>
+                        <p>We build responsive, user-friendly websites that look professional, feel effortless to use, and turn visitors into loyal customers.</p>
+                        <a href="#rate-card" class="core-more" aria-label="Learn more about Website Design and Development">Learn more <i class='bx bx-right-arrow-alt' aria-hidden="true"></i></a>
+                    </div>
+                </article>
+                <article class="core-card">
+                    <figure class="core-media">
+                        <img src="images/image copy 3.png" alt="" width="640" height="400" loading="lazy" decoding="async" onerror="this.remove()">
+                        <span class="core-num">06</span>
+                        <i class='bx bx-bar-chart-alt-2 core-ico' aria-hidden="true"></i>
+                    </figure>
+                    <div class="core-body">
+                        <div class="core-title"><h3>Analytics &amp; Reporting</h3><i class='bx bx-up-arrow-alt core-arrow' aria-hidden="true"></i></div>
+                        <p>We track performance, analyse data, and refine strategies so your marketing improves with every useful signal.</p>
+                        <a href="#rate-card" class="core-more" aria-label="Learn more about Analytics and Reporting">Learn more <i class='bx bx-right-arrow-alt' aria-hidden="true"></i></a>
+                    </div>
+                </article>
+                <article class="core-card">
+                    <figure class="core-media">
+                        <img src="images/image copy 2.png" alt="" width="640" height="400" loading="lazy" decoding="async" onerror="this.remove()">
+                        <span class="core-num">07</span>
+                        <i class='bx bx-user-voice core-ico' aria-hidden="true"></i>
+                    </figure>
+                    <div class="core-body">
+                        <div class="core-title"><h3>Influencer Marketing</h3><i class='bx bx-up-arrow-alt core-arrow' aria-hidden="true"></i></div>
+                        <p>We connect your brand with authentic voices that resonate with your target audience and build reach and credibility.</p>
+                        <a href="#rate-card" class="core-more" aria-label="Learn more about Influencer Marketing">Learn more <i class='bx bx-right-arrow-alt' aria-hidden="true"></i></a>
+                    </div>
+                </article>
+                <article class="core-card">
+                    <figure class="core-media">
+                        <img src="images/image copy.png" alt="" width="640" height="400" loading="lazy" decoding="async" onerror="this.remove()">
+                        <span class="core-num">08</span>
+                        <i class='bx bx-bot core-ico' aria-hidden="true"></i>
+                    </figure>
+                    <div class="core-body">
+                        <div class="core-title"><h3>Chatbot &amp; AI-Powered Marketing</h3><i class='bx bx-up-arrow-alt core-arrow' aria-hidden="true"></i></div>
+                        <p>We automate customer interactions with WhatsApp, Messenger, and AI-driven support to improve experience and streamline communication.</p>
+                        <a href="#rate-card" class="core-more" aria-label="Learn more about Chatbot and AI-Powered Marketing">Learn more <i class='bx bx-right-arrow-alt' aria-hidden="true"></i></a>
+                    </div>
+                </article>
+                <article class="core-card">
+                    <figure class="core-media">
+                        <img src="images/image.png" alt="" width="640" height="400" loading="lazy" decoding="async" onerror="this.remove()">
+                        <span class="core-num">09</span>
+                        <i class='bx bx-microphone core-ico' aria-hidden="true"></i>
+                    </figure>
+                    <div class="core-body">
+                        <div class="core-title"><h3>Podcast &amp; Audio Marketing</h3><i class='bx bx-up-arrow-alt core-arrow' aria-hidden="true"></i></div>
+                        <p>We create branded podcasts and audio campaigns that reach new audiences through useful, engaging stories.</p>
+                        <a href="#rate-card" class="core-more" aria-label="Learn more about Podcast and Audio Marketing">Learn more <i class='bx bx-right-arrow-alt' aria-hidden="true"></i></a>
+                    </div>
+                </article>
+                <article class="core-card">
+                    <figure class="core-media">
+                        <img src="images/rupatuttio.jpeg" alt="" width="640" height="400" loading="lazy" decoding="async" onerror="this.remove()">
+                        <span class="core-num">10</span>
+                        <i class='bx bx-star core-ico' aria-hidden="true"></i>
+                    </figure>
+                    <div class="core-body">
+                        <div class="core-title"><h3>Online Reputation Management</h3><i class='bx bx-up-arrow-alt core-arrow' aria-hidden="true"></i></div>
+                        <p>We monitor reviews, manage customer feedback, and help maintain a positive online presence that supports trust.</p>
+                        <a href="#rate-card" class="core-more" aria-label="Learn more about Online Reputation Management">Learn more <i class='bx bx-right-arrow-alt' aria-hidden="true"></i></a>
+                    </div>
+                </article>
+            </div>
+           </section>
+
+           <!-- Team section -->
+
+           <section class="team" id="team">
+            <p class="rc-eyebrow">The People</p>
+            <div class="rc-intro">
+                <h2 class="heading">Small team. <span>Big</span> attention.</h2>
+                <p>A compact, multidisciplinary team with the range to move from first idea to finished experience without losing the thread.</p>
+            </div>
+            <div class="tm-head">
+                <div>
+                    <p class="tm-kicker">The Studio</p>
+                    <h3>The minds behind the momentum.</h3>
+                </div>
+                <p class="tm-side">Strategy, design, content, and technology working in the same direction.</p>
+            </div>
+            <div class="tm-list">
+                <article class="tm-member">
+                    <span class="tm-num">01</span>
+                    <div class="tm-avatar" aria-hidden="true">WK</div>
+                    <div class="tm-body">
+                        <h4>Wickliff Kassa</h4>
+                        <p class="tm-role">CEO &amp; Brand Founder</p>
+                        <p class="tm-bio">Wickliff brings strategy and creativity together, setting the direction for work that helps businesses become clearer, stronger, and more visible.</p>
+                    </div>
+                    <div class="tm-links">
+                        <a href="#" aria-label="Wickliff Kassa on LinkedIn"><i class='bx bxl-linkedin' aria-hidden="true"></i></a>
+                        <a href="#contact" aria-label="Email Wickliff Kassa"><i class='bx bx-envelope' aria-hidden="true"></i></a>
+                    </div>
+                </article>
+                <article class="tm-member">
+                    <span class="tm-num">02</span>
+                    <div class="tm-avatar" aria-hidden="true">YW</div>
+                    <div class="tm-body">
+                        <h4>Yonas Wolde</h4>
+                        <p class="tm-role">ICT Programmer</p>
+                        <p class="tm-bio">Yonas turns ideas into dependable digital systems, from websites and software to the technical details that keep them running.</p>
+                    </div>
+                    <div class="tm-links">
+                        <a href="#" aria-label="Yonas Wolde on LinkedIn"><i class='bx bxl-linkedin' aria-hidden="true"></i></a>
+                        <a href="#contact" aria-label="Email Yonas Wolde"><i class='bx bx-envelope' aria-hidden="true"></i></a>
+                    </div>
+                </article>
+                <article class="tm-member">
+                    <span class="tm-num">03</span>
+                    <div class="tm-avatar" aria-hidden="true">SA</div>
+                    <div class="tm-body">
+                        <h4>Santos</h4>
+                        <p class="tm-role">Manager, Social Media &amp; Design</p>
+                        <p class="tm-bio">Santos keeps projects moving and brings consistency to the content, campaigns, and visual work that audiences see every day.</p>
+                    </div>
+                    <div class="tm-links">
+                        <a href="#" aria-label="Santos on LinkedIn"><i class='bx bxl-linkedin' aria-hidden="true"></i></a>
+                        <a href="#contact" aria-label="Email Santos"><i class='bx bx-envelope' aria-hidden="true"></i></a>
+                    </div>
+                </article>
+                <article class="tm-member">
+                    <span class="tm-num">04</span>
+                    <div class="tm-avatar" aria-hidden="true">OA</div>
+                    <div class="tm-body">
+                        <h4>Okelo Ulak Angelo</h4>
+                        <p class="tm-role">Full Stack Developer &amp; Creative Strategist</p>
+                        <p class="tm-bio">Angelo connects technical thinking with creative strategy to build digital experiences that are useful, expressive, and ready to grow.</p>
+                    </div>
+                    <div class="tm-links">
+                        <a href="#" aria-label="Okelo Ulak Angelo on LinkedIn"><i class='bx bxl-linkedin' aria-hidden="true"></i></a>
+                        <a href="#contact" aria-label="Email Okelo Ulak Angelo"><i class='bx bx-envelope' aria-hidden="true"></i></a>
+                    </div>
+                </article>
+            </div>
+            <div class="tm-values">
+                <div class="tm-values-head">
+                    <p class="tm-kicker">How we work</p>
+                    <h3>The values behind the work.</h3>
+                </div>
+                <ol class="tm-values-list">
+                    <li>
+                        <span class="tm-num">01</span>
+                        <h4>Make it matter</h4>
+                        <p>Every creative decision should earn attention and move the business forward.</p>
+                    </li>
+                    <li>
+                        <span class="tm-num">02</span>
+                        <h4>Stay close</h4>
+                        <p>The best work comes from listening carefully and building with clients, not around them.</p>
+                    </li>
+                    <li>
+                        <span class="tm-num">03</span>
+                        <h4>Keep improving</h4>
+                        <p>We use feedback, reporting, and curiosity to make the next version sharper than the last.</p>
+                    </li>
+                </ol>
+            </div>
+            <div class="rc-custom">
+                <div>
+                    <p class="rc-eyebrow">Bring us a challenge</p>
+                    <h3>Good work starts with a good <span>conversation.</span></h3>
+                </div>
+                <a href="#contact" class="btn">Start a project</a>
+            </div>
+           </section>
+
+           <!-- Contact section -->
+
+           <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <div class="ct-lead">
+                <p class="rc-eyebrow">Start here</p>
+                <h3>Let's make something <span>matter.</span></h3>
+                <p>Tell us what you are building, where it is stuck, or where you want it to go. We will help you find the next useful move.</p>
+            </div>
+
+            <div class="ct-info">
+                <p class="tm-kicker">The first conversation</p>
+                <h3>Good work starts with context.</h3>
+                <p class="ct-info-text">Share a little about your business and the result you want. A real person from Kassa will respond within 24 hours.</p>
+                <ul class="ct-details">
+                    <li><i class="bx bx-envelope" aria-hidden="true"></i><div><p class="ct-label">Email</p><a href="mailto:kassacreativev@gmail.com">kassacreativev@gmail.com</a></div></li>
+                    <li><i class="bx bx-phone" aria-hidden="true"></i><div><p class="ct-label">Call</p><a href="tel:+254790243579">+254 790 243 579</a></div></li>
+                    <li><i class="bx bx-map" aria-hidden="true"></i><div><p class="ct-label">Based in</p><p class="ct-value">Nairobi · Remote &amp; global</p></div></li>
+                    <li><i class="bx bx-time-five" aria-hidden="true"></i><div><p class="ct-label">Availability</p><p class="ct-value">Mon-Fri · 9AM-6PM EAT</p></div></li>
+                </ul>
+                <div class="ct-social">
+                    <a href="#" aria-label="Kassa Creative on Facebook"><i class='bx bxl-facebook' aria-hidden="true"></i></a>
+                    <a href="#" aria-label="Kassa Creative on LinkedIn"><i class='bx bxl-linkedin' aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+
+            <form action="#">
+                <div class="input-box">
+                    <label class="sr-only" for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name" autocomplete="name" required>
+                    <label class="sr-only" for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email" autocomplete="email" required>
+                </div>
+                <div class="input-box">
+                    <label class="sr-only" for="phone">Mobile number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter Your Mobile Number" autocomplete="tel">
+                    <label class="sr-only" for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Email Subject">
+                </div>
+                <label class="sr-only" for="message">Message</label>
+                <textarea id="message" name="message" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+            <p class="ct-note">No hard sell. Just a useful first conversation.</p>
+
+            <div class="ct-faq">
+                <div class="ct-faq-head">
+                    <div>
+                        <p class="tm-kicker">Before you write</p>
+                        <h3>Questions, answered.</h3>
+                    </div>
+                    <a href="tel:+254790243579" class="ct-call">Prefer a quick call? <i class="bx bx-up-arrow-alt" aria-hidden="true" style="transform:rotate(45deg)"></i></a>
+                </div>
+                <div class="ct-faq-grid">
+                    <div class="ct-faq-item">
+                        <h4>When will we see results?</h4>
+                        <p>Most clients see early engagement improvements within the first month. Stronger growth signals usually appear after three to six months of consistent execution.</p>
+                    </div>
+                    <div class="ct-faq-item">
+                        <h4>Do you work with small businesses?</h4>
+                        <p>Yes. We work with startups, small businesses, and established teams, shaping the scope around the goals and resources you actually have.</p>
+                    </div>
+                    <div class="ct-faq-item">
+                        <h4>What does reporting include?</h4>
+                        <p>Reports cover performance, audience insights, campaign learnings, and specific recommendations for the next stage of growth.</p>
+                    </div>
+                    <div class="ct-faq-item">
+                        <h4>Can you work with our existing team?</h4>
+                        <p>Absolutely. We can lead the work, support a team you already have, or take ownership of a focused part of your marketing system.</p>
+                    </div>
+                </div>
+            </div>
+
+           </section>
+
+           </main>
+           <!-- Footer design -->
+            <footer class="footer">
+                <div class="footer-text">
+                    <p>Copyright &copy; 2026 by milo | All Rights Reserved</p>
+                </div>
+
+                <div class="footer-icontop">
+                    <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+
+                </div>
+            </footer>
+
+  
+    <script src="index.js"></script>
+</body>
+</html>

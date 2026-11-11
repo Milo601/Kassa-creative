@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Kassa Creative Ventures logo">
+  <defs>
+    <linearGradient id="kc-coral" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff7a4d"/>
+      <stop offset="1" stop-color="#c8341f"/>
+    </linearGradient>
+    <linearGradient id="kc-blue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4b7bff"/>
+      <stop offset="1" stop-color="#1f3f9e"/>
+    </linearGradient>
+  </defs>
+  <!-- left coral crescent -->
+  <path fill="url(#kc-coral)" d="M31 6C15 8 6 24 10 40c3 10 12 18 23 18-8-5-13-13-13-23 0-12 4-22 11-29z"/>
+  <!-- right blue crescent -->
+  <path fill="url(#kc-blue)" d="M34 4c14 4 24 17 21 33-2 11-10 20-21 22 7-6 10-14 8-24-2-9-5-23-8-31z"/>
+</svg>
